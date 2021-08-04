@@ -1,0 +1,28 @@
+{
+  "name": "reclamos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "migrate": "",
+    "migrate:rollback": "",
+    "seed": "",
+    "test": "",
+    "build": "",
+    "dev": "node --inspect ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "mariadb": "^2.5.4",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "nodemailer": "^6.6.3",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
